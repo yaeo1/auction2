@@ -1,0 +1,133 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "login": "admin",
+            "password": "adminpassword",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "login": "seller1",
+            "password": "sellerpassword",
+            "role": "seller"
+        },
+        {
+            "id": 3,
+            "login": "andrey1",
+            "password": "password",
+            "role": "seller"
+        },
+        {
+            "id": 4,
+            "login": "viktor1",
+            "password": "password",
+            "role": "seller"
+        },
+        {
+            "id": 5,
+            "login": "igor1",
+            "password": "password",
+            "role": "seller"
+        },
+        {
+            "id": 6,
+            "login": "ivan1",
+            "password": "password",
+            "role": "seller"
+        },
+        {
+            "id": 7,
+            "login": "boba1",
+            "password": "password",
+            "role": "seller"
+        }
+    ],
+    "sellers": [
+        {
+            "id": 1,
+            "first_name": "Андрей",
+            "last_name": "Кузнецов",
+            "phone": "8924714272",
+            "user_id": 3
+        },
+        {
+            "id": 2,
+            "first_name": "Виктор",
+            "last_name": "Никифоров",
+            "phone": "889416463233",
+            "user_id": 4
+        },
+        {
+            "id": 3,
+            "first_name": "Игорь",
+            "last_name": "Васнецов",
+            "phone": "864194723974",
+            "user_id": 5
+        },
+        {
+            "id": 4,
+            "first_name": "Иван",
+            "last_name": "Гречников",
+            "phone": "81712848329",
+            "user_id": 6
+        },
+        {
+            "id": 5,
+            "first_name": "Алексей",
+            "last_name": "Торчков",
+            "phone": "8412878712",
+            "user_id": 7
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "name": "Браслет для часов ",
+            "description": "Браслет для часов Электроника СССР",
+            "starting_price": 5000.0,
+            "photo": "./img\\braslet_dlja_chasov_elektronika_sssr_zheltyj_170_18_mm_shpaly_gold_color_hong_kong_watch_bracelet_vch126.jpg",
+            "seller_id": 2
+        },
+        {
+            "id": 2,
+            "name": "Винтажные часы Восток",
+            "description": "Винтажные часы восток СССР",
+            "starting_price": 2000.0,
+            "photo": "./img\\vintazhnye_chasy_vostok_2409a_sssr_krakeljur_vintage_1980s_ussr_watch_wostok_craquelures_dial_iv685_72.jpg",
+            "seller_id": 3
+        },
+        {
+            "id": 3,
+            "name": "Подушка для полировки ногтей",
+            "description": "Подушка для полировки ногтей винтаж Европа",
+            "starting_price": 4000.0,
+            "photo": "./img\\podushka_dlja_polirovki_nogtej_vintazh_evropa_utvar_manikjurnyj_instrument_dp291_78.jpg",
+            "seller_id": 4
+        },
+        {
+            "id": 4,
+            "name": "Монетка",
+            "description": "Монетка",
+            "starting_price": 6123.0,
+            "photo": "./img\\rubl_1742_goda_v_obraznyj_kraj_korsazha_redkij.jpg",
+            "seller_id": 5
+        },
+        {
+            "id": 5,
+            "name": "Настольные лампы",
+            "description": "Настольные лампы",
+            "starting_price": 15000.0,
+            "photo": "./img\\nastolnye_lampy_steklo_tiffani_antikvarnoe_osnovanie_iz_shpiatra_mramornyj_postament_ljuks.jpg",
+            "seller_id": 6
+        },
+        {
+            "id": 6,
+            "name": "Статуэтка ангела",
+            "description": "ангел",
+            "starting_price": 1231.0,
+            "photo": "./img\\statuetka_angela.jpg",
+            "seller_id": 7
+        }
+    ]
+}
